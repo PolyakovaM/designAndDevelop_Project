@@ -1,0 +1,10 @@
+@media screen and (max-width: 1024px) {
+	
+	.header {
+		max-width: 94%;
+	}
+
+	.section_designer_wrapper {
+	   max-width: 75%;
+	}
+}

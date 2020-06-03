@@ -1,0 +1,66 @@
+@media screen and (max-width: 1024px) {
+	p {  
+		font-size: 45px;
+	   line-height: 60px;
+	}
+
+	h2 {
+		font-size: 60px;
+	}
+	
+	.section_designer {
+	   height: 650px;
+	}
+
+	.content_info_designer {
+	   width: 80%;
+	}
+
+	.content_designer {
+		display: block; 
+		background-color: rgba(0, 0, 0, .4);
+	}
+
+	.content_designer:hover { 
+		background-color: rgba(0, 0, 0, .4); 
+	}
+
+	.content_info_designer p {
+		font-size: 40px;
+		line-height: 60px;
+	}
+	
+	.about_me_background {
+	   width: 100%;
+	   height: 700px;
+	}
+
+	.about_me_info {
+	   width: 100%;
+	}
+
+	.about_me_wrapper {
+	   max-width: 75%;
+	   margin: 50px auto;
+	   text-align: center;
+	}
+
+	.about_me_wrapper img {
+		height: 120px;
+	}
+
+	.order_project_wrapper {
+	   max-width: 80%;
+	   margin: 60px auto;
+	}
+
+	.order_project_wrapper p {
+	   font-size: 25px;
+	}
+
+	.primary_btn {
+	   font-size: 30px;
+	   padding: 35px;
+	   margin-bottom: 0;
+	}
+}

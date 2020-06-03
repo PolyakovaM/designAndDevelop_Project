@@ -1,0 +1,315 @@
+@media screen and (max-width: 1024px) {
+	p {
+		font-size: 14px;
+	}
+	
+	h1 {
+		font-size: 70px;
+		line-height: 85px;
+	}
+
+	h5 {
+		font-size: 22px;
+	}
+
+	p, h1, h2, h3, h5 {
+		text-align: center;
+	}
+
+	i {
+		font-size: 70px;
+	}
+
+	.burger-menu {
+		display: block;
+		position: absolute;
+		z-index: 10;
+	}
+
+	.burger-menu__button {
+		position: fixed;
+		top: 27px;
+		right: 27px;
+		z-index: 30;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		background-color: #2a2a2acf;
+		transition: 0.4s;
+	}
+
+	.burger-menu__lines,
+	.burger-menu__lines::after,
+	.burger-menu__lines::before {
+		position: absolute;
+		width: 40px;
+		height: 6px;
+		background-color: #fff;
+	}
+
+	.burger-menu__lines {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.burger-menu__lines::before {
+		content: '';
+		top: -12px;
+	}
+
+	.burger-menu__lines::after {
+		content: '';
+		top: 12px;
+	}
+
+	.burger-menu_active .burger-menu__button,
+	.burger-menu_active .burger-menu__lines {
+	 	background-color: transparent;
+	}
+
+	.burger-menu_active .burger-menu__lines::before {
+		top: 0;
+		transform: rotate(45deg);
+	}
+
+	.burger-menu_active .burger-menu__lines::after {
+		top: 0;
+		transform: rotate(-45deg);
+	}
+
+	.burger-menu__nav {
+		padding-top: 80px;
+		position: fixed;
+		z-index: 20;
+		display: flex;
+		flex-flow: column;
+		height: 100%;
+		background-color: #2a2a2a;
+		overflow-y: auto;
+		left: -100%;
+		transition: 0.5s;
+	}
+
+	.burger-menu_active .burger-menu__nav {
+		left: 0;
+	}
+
+	.burger-menu__link {
+		margin: 15px 50px;
+		font-family: 'Montserrat', sans-serif;;
+		font-size: 24px;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #fff;
+	}
+
+	.burger-menu__link:hover {
+	 	cursor: pointer;
+		color: #10c9c3;
+		text-decoration: none;
+	}
+
+	.burger-menu__overlay {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		z-index: 10;
+		background-color: rgba(0,0,0,.85);
+	}
+
+	.burger-menu_active .burger-menu__overlay {
+	 	display: block;
+	}
+
+	.header_wrapper {
+		background-color: rgba(255, 255, 255, .6);
+		overflow: auto;
+		z-index: 5;
+	}
+
+	.header_navigation {
+		margin: 39px 30px;
+	}
+
+	.logo img {
+		width: 80px;
+	}
+
+	.header_menu {
+		display: none;
+	}
+	
+	.header_contant {
+	   justify-content: center;
+	   margin-right: 0;
+	 	margin-bottom: 0;
+	   text-align: center;
+	}
+
+	.header_contant_wrapper {
+   	width: 80%;
+	}
+
+	.header_contant_wrapper p, .section_designer_wrapper p {
+   	font-size: 40px;
+   	line-height: 60px;
+   	color: black;
+	}
+
+	.primary_btn {
+		margin-bottom: 40px;
+		font-size: 25px;
+	}
+
+	.about_us_wrapper {
+		max-width: 90%;
+		text-align: center;
+		margin: 80px auto;
+	}
+
+	.skill_bar {
+		width: 100%;
+	}
+
+	.skill_bar_wrapper {
+		max-width: 70%;
+	   margin: 100px auto;
+	}
+
+	.skill_bar_wrapper h2 {
+		font-size: 50px;
+		margin-bottom: 60px;
+	}
+
+	.section_skills_background {
+		display: none;
+	}
+
+	.skills {
+  		padding-bottom: 8px; 
+	}
+
+	.section_numbers_wrapper {
+		max-width: 90%;
+		margin: 60px auto 20px;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+
+	.achievements {
+		width: 50%;
+		margin-bottom: 40px;
+		font-size: 30px;
+		display: block;
+	}
+
+	.numbers {
+		font-size: 30px;
+	}
+
+	.section_numbers_info {
+		font-size: 23px;
+	}
+
+	.add_info_numbers {
+     	margin-left: 0;
+     	margin-top: 20px;
+	}
+
+	.works_bgr {
+		width: 50%;
+   	height: 400px;
+	}
+
+	.works_more h5 {
+		font-size: 12px;
+	}
+
+	.work_process_wrapper {
+	   max-width: 90%;
+	   margin: 80px auto;
+	}
+
+	.video_preview img {
+    	max-width: 90%;
+	}
+
+	.services_information {
+    	width: 40%;
+	}
+
+	.services_information p {
+	   font-size: 32px;
+	   line-height: 35px;
+	}
+
+	.section_reviews_wrapper {
+	   max-width: 85%;
+	   margin: 100px auto;
+	}
+
+	.section_reviews_wrapper p, .section_reviews_wrapper h5 {
+	 	font-size: 12px;
+	}
+
+	.container_form_wrapper {
+	   max-width: 80%;
+	}
+
+	.container_form input, .container_form textarea {
+		width: 70%;
+		padding: 30px 20px;
+		font-size: 30px;
+	}
+
+	.name_email_input {
+		flex-wrap: wrap;
+	}
+
+	.form_name, .form_email {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.form_title {
+		margin-top: 0;
+	}
+
+	textarea::placeholder {
+		font-size: 10px;
+	}
+
+	.container_form button {
+		font-size: 24px;
+		padding: 35px 50px;
+	}
+
+	.footer_wrapper h3 {
+	   font-size: 30px;
+	   margin-bottom: 35px;
+	}
+
+	.footer_wrapper p {
+	   margin-bottom: 20px;
+	   font-size: 20px;
+	}
+
+	.footer_wrapper ul {
+	   font-size: 40px;
+	   width: 30%;
+	   margin-top: 50px;
+	}
+
+	.footer_rights, .footer_connection {
+		width: 100%;
+	}
+
+	.footer__information {
+		width: 60%;
+	}
+}
