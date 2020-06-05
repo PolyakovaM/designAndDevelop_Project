@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+	.project_description {
+		position: fixed;
+		bottom: 0px;
+		display: none;
+	}
+	  
+	h5 {
+		font-size: 10px;
+  	}
+}
+
+@media screen and (max-width: 768px) {
+	.project_images {
+		width: 100%;
+  	}
+}

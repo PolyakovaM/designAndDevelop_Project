@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+	.contactForms {
+		display: block;
+	}
+
+	.contact_info_wrapper {
+		margin: 20px auto;
+  	}
+
+	.contact_info_description {
+		width: 100%;
+		margin: auto;
+  	}
+
+	.contact_info {
+		margin: 0 auto;
+	}
+	  
+	.container_form {
+		margin-top: 20px;
+		width: 100%;
+		text-align: center;
+	}
+	  
+	.container_form input, .container_form textarea {
+		width: 100%;
+	}
+
+	.container_form button {
+		font-size: 15px;
+		padding: 20px;
+  	}
+}
+
