@@ -59,7 +59,7 @@ button {
 
 button:active {
 	background: #4c9e9c;
-   box-shadow: inset 0px 0px 35px #769a99;
+  box-shadow: inset 0px 0px 35px #769a99;
 }
 
 i {
@@ -185,8 +185,8 @@ a:hover {
 }
 
 .skills {
-  	padding-bottom: 3px; 
-  	background-color: #10c9c3;
+  padding-bottom: 3px; 
+  background-color: #10c9c3;
 }
 
 .design {
@@ -296,11 +296,11 @@ a:hover {
 	display: none;
 	text-align: center;
 	top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   cursor: pointer;
-   transition: .5s; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition: .5s; 
 }
  
 .bgbg:hover { 
@@ -316,7 +316,7 @@ a:hover {
 }
 
 .works_bgr:hover .bgbg{
-   display: block;
+  display: block;
 }
 
 .works_more {
@@ -543,12 +543,12 @@ a:hover {
 }
 
 .footer_wrapper p {
-   color: #bcbcbc;
-   font-size: 15px;
+  color: #bcbcbc;
+  font-size: 15px;
 }
 
 .footer_wrapper ul {
-   font-family: 'Nunito Sans',sans-serif;
+  font-family: 'Nunito Sans',sans-serif;
 	font-size: 15px; 
 }
 
@@ -557,11 +557,11 @@ a:hover {
 }
 
 .footer_wrapper a {
-   color: #bcbcbc;
+  color: #bcbcbc;
 }
 
 .footer_wrapper a:focus, .footer_wrapper a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
     
 .footer_rights h3 {

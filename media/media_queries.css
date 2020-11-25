@@ -137,17 +137,18 @@
 	}
 	
 	.header_contant {
-	   justify-content: center;
-	   margin-right: 0;
+	  justify-content: center;
+	  margin-right: 0;
 	 	margin-bottom: 0;
-	   text-align: center;
+	  text-align: center;
 	}
 
 	.header_contant_wrapper {
    	width: 80%;
 	}
 
-	.header_contant_wrapper p, .section_designer_wrapper p {
+	.header_contant_wrapper p, 
+	.section_designer_wrapper p {
    	font-size: 40px;
    	line-height: 60px;
    	color: black;
@@ -170,7 +171,7 @@
 
 	.skill_bar_wrapper {
 		max-width: 70%;
-	   margin: 100px auto;
+	  margin: 100px auto;
 	}
 
 	.skill_bar_wrapper h2 {
@@ -183,7 +184,7 @@
 	}
 
 	.skills {
-  		padding-bottom: 8px; 
+  	padding-bottom: 8px; 
 	}
 
 	.section_numbers_wrapper {
@@ -209,8 +210,8 @@
 	}
 
 	.add_info_numbers {
-     	margin-left: 0;
-     	margin-top: 20px;
+    margin-left: 0;
+    margin-top: 20px;
 	}
 
 	.works_bgr {
@@ -223,33 +224,34 @@
 	}
 
 	.work_process_wrapper {
-	   max-width: 90%;
-	   margin: 80px auto;
+	  max-width: 90%;
+	  margin: 80px auto;
 	}
 
 	.video_preview img {
-    	max-width: 90%;
+    max-width: 90%;
 	}
 
 	.services_information {
-    	width: 40%;
+    width: 40%;
 	}
 
 	.services_information p {
-	   font-size: 32px;
-	   line-height: 35px;
+	  font-size: 32px;
+	  line-height: 35px;
 	}
 
 	.section_reviews_wrapper {
-	   max-width: 85%;
-	   margin: 100px auto;
+	  max-width: 85%;
+	  margin: 100px auto;
 	}
 
 	.container_form_wrapper {
-	   max-width: 80%;
+	  max-width: 80%;
 	}
 
-	.container_form input, .container_form textarea {
+	.container_form input, 
+	.container_form textarea {
 		width: 70%;
 		padding: 30px 20px;
 		font-size: 20px;
@@ -257,7 +259,7 @@
 	
 	.form_comment textarea::placeholder {
 		font-size: 20px;
-  	}
+  }
 
 	.name_email_input {
 		flex-wrap: wrap;
@@ -278,22 +280,23 @@
 	}
 
 	.footer_wrapper h3 {
-	   font-size: 30px;
-	   margin-bottom: 35px;
+	  font-size: 30px;
+	  margin-bottom: 35px;
 	}
 
 	.footer_wrapper p {
-	   margin-bottom: 20px;
-	   font-size: 20px;
+	  margin-bottom: 20px;
+	  font-size: 20px;
 	}
 
 	.footer_wrapper ul {
-	   font-size: 28px;
-	   width: 30%;
-	   margin-top: 50px;
+	  font-size: 28px;
+	  width: 30%;
+	  margin-top: 50px;
 	}
 
-	.footer_rights, .footer_connection {
+	.footer_rights, 
+	.footer_connection {
 		width: 100%;
 	}
 
@@ -328,14 +331,15 @@
 		right: 25px;
 		width: 60px;
 		height: 60px;
-  	}
+  }
 	  
 	h1 {
 		font-size: 30px;
 		line-height: 45px;
 	}
 	
-	.header_contant_wrapper p, .section_designer_wrapper p {
+	.header_contant_wrapper p, 
+	.section_designer_wrapper p {
 		font-size: 25px;
 		line-height: 40px;
 	}
@@ -345,9 +349,10 @@
 		margin-bottom: 10px;
 	}
 
-	.container_form_wrapper, .order_project_wrapper {
+	.container_form_wrapper, 
+	.order_project_wrapper {
 		margin: 20px auto;
-  	}
+  }
 
 	.skill_bar_wrapper {
 		max-width: 90%;
@@ -378,7 +383,7 @@
 		display: block;
   	}
 
-  	.works_bgr {
+  .works_bgr {
 		width: 100%;
 		height: 200px;
 	}
@@ -404,9 +409,9 @@
 	  
 	i {
 		font-size: 40px;
-  	}
+  }
 
-  	.bottom_slider {
+  .bottom_slider {
 		margin-top: 30px;
 	}
 
@@ -414,7 +419,8 @@
 		display: none;
 	}
 
-	.container_form input, .container_form textarea {
+	.container_form input, 
+	.container_form textarea {
 		width: 100%;
 		padding: 10px;
 	}

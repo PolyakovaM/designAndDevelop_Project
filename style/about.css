@@ -13,11 +13,11 @@
 	display: none;
 	text-align: center;
 	top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   cursor: pointer;
-   transition: .5s; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition: .5s; 
 }
 
 .content_info_designer p, .content_info_designer h1 {
@@ -36,7 +36,7 @@
 }
 
 .section_designer:hover .content_designer{
-   display: block;
+  display: block;
 }
 
 .container_about_me {
